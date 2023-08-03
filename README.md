@@ -1,2 +1,2 @@
-# SCOPE
-Search code parrot engine(SCOPE), a revolutionize local searches by LLMs.
+# SCOPE Out Your Code
+The Search Code Parrot Engine (SCOPE) revolutionizes local code searches using Language Learning Models (LLMs). It is designed to enhance productivity and minimize the time spent navigating unfamiliar codebases, empowering you to swiftly find the source code you need.
