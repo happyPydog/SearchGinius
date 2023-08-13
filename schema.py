@@ -21,15 +21,18 @@ class ChoiceMessage(TypedDict):
     role: str
     content: str
 
+
 class Choice(TypedDict):
     index: int
     message: ChoiceMessage
     finish_reason: str
 
+
 class Usage(TypedDict):
     prompt_tokens: int
     completion_tokens: int
     total_tokens: int
+
 
 class ChatGPTResponse(TypedDict):
     id: str

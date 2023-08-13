@@ -13,7 +13,7 @@ def summary_code(text: str) -> str:
             {"role": "system", "content": "You are a smart Python programmer."},
             {
                 "role": "user",
-                "content": f"Given a source code in triple backticks, use at most 3 sentences to summarize it.\n\n```python\n{text}\n```"
+                "content": f"Given the source code enclosed in triple backticks, use at most 3 sentences to summarize it.\n\n```python\n{text}\n```",
             },
         ],
     )
@@ -29,7 +29,7 @@ def tag_code(text: str) -> str:
             {"role": "system", "content": "You are a smart Python programmer."},
             {
                 "role": "user",
-                "content": f"Given the source code enclosed in triple backticks, please provide a brief descriptive tag or phrase for the code. This tag will be used for similarity search to locate relevant source code based on the provided text.\nHere's the source code: ```python\n{text}\n```"
+                "content": f"Given the source code enclosed in triple backticks, please provide a brief descriptive tag or phrase for the code. This tag will be used for similarity search to locate relevant source code based on the provided text.\nHere's the source code: ```python\n{text}\n```",
             },
         ],
         temperature=0.7,
